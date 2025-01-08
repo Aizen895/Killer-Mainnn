@@ -56,7 +56,7 @@ async def main():
         client = await create_client(client_name)
         
         # Wait for a few seconds
-        await asyncio.sleep(5)
+        await asyncio.sleep(1)
         
         # Delete client
         if client:
